@@ -5,25 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>Generate a Random Password</h1>
         <input type="text" placeholder="Password" id="password" readonly>
         <button id="generate">Generate Password</button>
-        <button id="Copy">Copy</button>
-        <label for="length">Password Length</label>
-        <input type="number" id="length" min="4" max="20" value="12">
-        <label for="checkbox">UpperCase</label>
-        <input type="checkbox" id="uppercase">
-        <label for="checkbox2">LowerCase</label>
-        <input type="checkbox" id="lowercase">
-        <label for="checkbox3">Number</label>
-        <input type="checkbox" id="number">
-        <label for="checkbox4">Symbols</label>
-        <input type="checkbox" id="symbols">
+        <button id="copy">Copy</button>
+        <div class="option">
+            <label for="length">Password Length</label>
+            <input type="number" id="length" min="4" max="20" value="12">
+            <label for="uppercase">UpperCase</label>
+            <input type="checkbox" id="uppercase">
+            <label for="lowercase">LowerCase</label>
+            <input type="checkbox" id="lowercase">
+            <label for="number">Number</label>
+            <input type="checkbox" id="number">
+            <label for="symbols">Symbols</label>
+            <input type="checkbox" id="symbols">
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
