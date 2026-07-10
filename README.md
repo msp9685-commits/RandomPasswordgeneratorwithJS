@@ -1,3 +1,17 @@
-Random Password Generator -> Generates random passwords with different pattern 
-where user decides the pattern also contain copy button to copy password
-overall this project was build my me for learning purpose
+# Password Generator
+
+A simple password generator built using HTML, CSS, and JavaScript.
+
+## Features
+- Generate random passwords
+- Select password length
+- Include uppercase letters
+- Include lowercase letters
+- Include numbers
+- Include symbols
+- Copy password to clipboard
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
